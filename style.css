@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Love';
+    src: url(fontes/jully\ julia.ttf) format('truetype'), url(fontes/jully\ julia.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    text-decoration: none;
+
+}
+
+body {
+    background-image:url(img/Corações.avif);
+    background-repeat: repeat-x;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.painel {
+    font-family: 'Love';
+    font-size: 16px;
+    height: 70vh;
+    width: 58vh;
+    border-radius: 16px;
+    background: red;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burn {
+    background-image: url(img/Coração\ Plin.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+img {
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    height: 30px;
+    width: 50px;
+    background: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+}
